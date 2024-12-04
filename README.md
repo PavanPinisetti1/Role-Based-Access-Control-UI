@@ -69,7 +69,7 @@ Table of Contents
 # Components Overview
 The project is modular, with each feature implemented as a reusable component. Below is an overview of the core components:
 
-	**1. Dashboard**
+	#1. Dashboard
 		Purpose: Provides an overview of the application, showing statistics and recent activities.
 		Key Features:
 		Displays the total count of users, roles, and permissions.
