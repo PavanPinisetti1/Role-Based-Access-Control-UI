@@ -69,57 +69,56 @@ Table of Contents
 # Components Overview
 The project is modular, with each feature implemented as a reusable component. Below is an overview of the core components:
 
-	#1. Dashboard
+	1. Dashboard
 		Purpose: Provides an overview of the application, showing statistics and recent activities.
 		Key Features:
-		Displays the total count of users, roles, and permissions.
-		Lists recent changes or updates in the application.
-		Provides quick navigation links to core sections like Users, Roles, and Permissions.
+			- Displays the total count of users, roles, and permissions.
+			- Lists recent changes or updates in the application.
+			- Provides quick navigation links to core sections like Users, Roles, and Permissions.
 		File: Dashboard.js
 		Style: Dashboard.css
   
-	**2. Users Management**
+	2. Users Management
 		Purpose: Enables management of users with features to add, edit, delete, and assign roles.
 		Key Features:
-			Add new users by providing details such as name, email, and role.
-			Edit existing users to update their information or change their assigned roles.
-			Delete users who are no longer active in the system.
+			- Add new users by providing details such as name, email, and role.
+			- Edit existing users to update their information or change their assigned roles.
+			- Delete users who are no longer active in the system.
 		File: Users.js
 		Style: Users.css
   
-	**3. Roles Management**
+	3. Roles Management
 		Purpose: Allows creation, editing, and deletion of roles within the system.
 		Key Features:
-			Add roles dynamically with unique names.
-			Edit existing roles to update their names.
-			Delete roles that are obsolete or no longer in use.
+			- Add roles dynamically with unique names.
+			- Edit existing roles to update their names.
+			- Delete roles that are obsolete or no longer in use.
 		File: Roles.js
 		Style: Roles.css
   
-	**4. Permission Management**
+	4. Permission Management
 		Purpose: Provides tools to manage permissions assigned to each role dynamically.
 		Key Features:
-			View and modify permissions associated with each role.
-			Available permissions include view, edit, delete, publish, and archive.
-			Automatically updates the roles and permissions across the app when changes are made.
+			- View and modify permissions associated with each role.
+			- Available permissions include view, edit, delete, publish, and archive.
+			- Automatically updates the roles and permissions across the app when changes are made.
 		File: PermissionManagement.js
 		Style: PermissionManagement.css
   
-	**5. Context API for State Management**
+	5. Context API for State Management
 		Purpose: Manages global application state to ensure consistent and real-time updates across components.
 		Key Features:
-			Centralized storage for users, roles, and permissions.
-			Automatically propagates state changes to all dependent components.
+			- Centralized storage for users, roles, and permissions.
+			- Automatically propagates state changes to all dependent components.
 		File: AppContext.js
   
-	**6. Shared UI Elements**
+	6. Shared UI Elements
 		Purpose: Provides reusable UI components to ensure consistency across the application.
 		Examples:
-			Buttons: Add, Edit, Delete, Save Changes.
-			Input Fields: Text inputs for creating or editing users and roles.
-			Lists: Displaying users, roles, or permissions dynamically.
+			- Buttons: Add, Edit, Delete, Save Changes.
+			- Input Fields: Text inputs for creating or editing users and roles.
+			- Lists: Displaying users, roles, or permissions dynamically.
 	
-
 
 
 # Future Enhancements
