@@ -1,4 +1,4 @@
-Admin Panel Application
+## Admin Panel Application
 
    This project is a React-based Admin Panel designed for managing users and roles in an organization. It features functionalities to add, edit, and delete users and roles. The application dynamically tracks the count of users and roles and displays an overview on the dashboard.
 
@@ -12,7 +12,7 @@ Table of Contents
   7. Prerequisites
 
 
-Features:
+# Features:
 	> Dashboard: Displays an overview of the system, including total users and roles.
 	> User Management:
 		1. Add new users.
@@ -25,7 +25,7 @@ Features:
 	> Dynamic Data Storage: All data is saved in localStorage for persistence across sessions.
 
 
-Project Structure:
+# Project Structure:
 	rbac-ui/
 	├── public/
 	├── src/
@@ -51,14 +51,14 @@ Project Structure:
 	└── package.json
 
 
-Usage:
+# Usage:
 	1. Dashboard: Displays an overview of the app's status with a count of users, roles, and permissions.
 	2. Users Management: Allows you to add, edit, or delete users and assign roles to them.
 	3. Roles Management: Provides functionality to create, edit, or delete roles.
 	4. Permission Management: Manage permissions dynamically for each role.
 
 
-Tech Stack
+# Tech Stack
 	1. Frontend: React.js
 	2. Styling: CSS
 	3. State Management: React Context API
@@ -66,7 +66,7 @@ Tech Stack
 
 
 
-Components Overview
+# Components Overview
 The project is modular, with each feature implemented as a reusable component. Below is an overview of the core components:
 	1. Dashboard
 		Purpose: Provides an overview of the application, showing statistics and recent activities.
@@ -116,7 +116,7 @@ The project is modular, with each feature implemented as a reusable component. B
 
 
 
-Future Enhancements
+# Future Enhancements
 	> Backend Integration:
 		1. Connect to an API for persistent data storage and retrieval.
 		2. Use a database to replace LocalStorage.
@@ -131,7 +131,7 @@ Future Enhancements
 
 
 
-Prerequisites
+## Prerequisites
 
 # Getting Started with Create React App
 
