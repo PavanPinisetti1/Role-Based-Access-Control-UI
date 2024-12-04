@@ -1,0 +1,49 @@
+.permission-management {
+    padding: 20px;
+    background-color: #f4f6f9;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.role-permission {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.role-permission h3 {
+    font-size: 20px;
+    color: #3f51b5;
+    margin-bottom: 10px;
+}
+
+.permissions-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.permission-item {
+    flex: 1 1 calc(33% - 10px); 
+    font-size: 16px;
+}
+
+label {
+    font-size: 16px;
+    color: #555;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.2);
+    margin-right: 5px;
+}
+

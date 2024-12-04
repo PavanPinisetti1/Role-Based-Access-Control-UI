@@ -1,0 +1,48 @@
+.user-management-container {
+    padding: 20px;
+    background-color: #f4f6f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.user-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.user-item:hover {
+    background-color: #f0f0f0;
+}
+
+.user-button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.user-button:hover {
+    background-color: #0056b3;
+}
+
+.add-user-button {
+    background-color: #28a745;
+    margin-left: 10px;
+}
+
+.add-user-button:hover {
+    background-color: #218838;
+}
